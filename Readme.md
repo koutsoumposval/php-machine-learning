@@ -1,17 +1,34 @@
 PHP Machine Learning
 =============================
-PHP Machine Learning Examples for learning purposes
+PHP Machine Learning Examples for learning purposes.
+Provide data, train the models and check the results! 
 
 Library
 --------
 All examples are using the [PHP-ML - Machine Learning library for PHP][0]
 
-Topics
+Association rule learning
 -------
-* [Apriori Associator][1] `apriori.php`
-* [Support Vector Classification][2] `svc.php`
-* [KNearestNeighbors Classifier][3] `KNearestNeighbors.php`
-* [NaiveBayes Classifier][4] `NaiveBayes.php`
+* [Apriori Associator][1]
+```
+# Apriori Associator
+php association-rule-learning/apriori.php
+```
+Classification
+-------
+* [Support Vector Classification][2]
+* [KNearestNeighbors Classifier][3]
+* [NaiveBayes Classifier][4]
+```
+# Support Vector Classification
+php classification/svc.php
+
+# KNearestNeighbors Classifier
+php classification/KNearestNeighbors.php
+
+# NaiveBayes Classifier
+php classification/NaiveBayes.php
+```
 
 Installation
 --------

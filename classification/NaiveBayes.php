@@ -1,7 +1,7 @@
 <?php
 use Phpml\Classification\NaiveBayes;
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 $samples = [[5, 1, 1], [1, 5, 1], [1, 1, 5]];
 $labels = ['a', 'b', 'c'];
