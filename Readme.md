@@ -30,6 +30,19 @@ php classification/KNearestNeighbors.php
 php classification/NaiveBayes.php
 ```
 
+Regression
+-------
+* [LeastSquares Linear Regression][5]
+* [Support Vector Regression][6]
+
+```
+# LeastSquares Linear Regression
+php regression/leastSquares.php
+
+# Support Vector Regression
+php regression/svr.php
+```
+
 Installation
 --------
 ```
@@ -41,3 +54,5 @@ composer install
 [2]: http://php-ml.readthedocs.io/en/latest/machine-learning/classification/svc/
 [3]: http://php-ml.readthedocs.io/en/latest/machine-learning/classification/k-nearest-neighbors/
 [4]: http://php-ml.readthedocs.io/en/latest/machine-learning/classification/naive-bayes/
+[5]: http://php-ml.readthedocs.io/en/latest/machine-learning/regression/least-squares/
+[6]: http://php-ml.readthedocs.io/en/latest/machine-learning/regression/svr/
