@@ -43,6 +43,19 @@ php regression/leastSquares.php
 php regression/svr.php
 ```
 
+Clustering
+--------
+* [K-means clustering][7]
+* [DBSCAN clustering][8]
+
+```
+# K-means clustering
+php regression/KMeans.php
+
+# DBSCAN clustering
+php regression/DBSCAN.php
+```
+
 Installation
 --------
 ```
@@ -56,3 +69,5 @@ composer install
 [4]: http://php-ml.readthedocs.io/en/latest/machine-learning/classification/naive-bayes/
 [5]: http://php-ml.readthedocs.io/en/latest/machine-learning/regression/least-squares/
 [6]: http://php-ml.readthedocs.io/en/latest/machine-learning/regression/svr/
+[7]: http://php-ml.readthedocs.io/en/latest/machine-learning/clustering/dbscan/
+[8]: http://php-ml.readthedocs.io/en/latest/machine-learning/clustering/k-means/
